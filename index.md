@@ -62,7 +62,7 @@ Reprise（リプライズ）は、利用者の情報を一切収集しません�
 
 ## お問い合わせ
 
-satoshi.ryoke@gmail.com
+reprise.app.support@gmail.com
 
 ---
 
@@ -125,4 +125,4 @@ If this policy changes, this page will be updated along with the date above.
 
 ## Contact
 
-satoshi.ryoke@gmail.com
+reprise.app.support@gmail.com

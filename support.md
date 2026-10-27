@@ -10,7 +10,7 @@ Reprise は、音声教材を文ごとに区切って繰り返し聞ける語学
 
 ## お問い合わせ
 
-satoshi.ryoke@gmail.com
+reprise.app.support@gmail.com
 
 不具合の報告には、次の情報を添えていただけると早く対応できます。
 
@@ -81,7 +81,7 @@ Reprise is a language-learning audio player that splits recordings into sentence
 
 ## Contact
 
-satoshi.ryoke@gmail.com
+reprise.app.support@gmail.com
 
 When reporting a problem, please include your iPhone model, iOS version, what you did, what happened, and the format and length of the audio you imported.
 
