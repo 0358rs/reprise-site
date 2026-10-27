@@ -1,3 +1,8 @@
+---
+layout: default
+title: サポート
+---
+
 # Reprise（リプライズ）サポート
 
 Reprise は、音声教材を文ごとに区切って繰り返し聞ける語学プレーヤーです。

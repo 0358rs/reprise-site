@@ -1,2 +1,5 @@
 title: Reprise
-theme: jekyll-theme-minimal
+lang: ja
+baseurl: /reprise-site
+exclude:
+  - README.md
