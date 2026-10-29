@@ -21,7 +21,6 @@ reprise.app.support@gmail.com
 ## 対応環境
 
 - iOS 26 以降の iPhone
-- Apple Intelligence 対応の端末では、文の区切りがより自然になります。非対応の端末でも利用できます
 
 ## よくある質問
 
@@ -88,7 +87,6 @@ When reporting a problem, please include your iPhone model, iOS version, what yo
 ## Requirements
 
 - iPhone running iOS 26 or later
-- Apple Intelligence improves sentence boundaries where available, but the app works without it
 
 ## FAQ
 

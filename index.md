@@ -32,7 +32,6 @@ Reprise（リプライズ）は、利用者の情報を一切収集しません�
 
 ただし、認識に使う言語モデルが端末に未インストールの場合、Apple のシステム機能としてそのモデルのダウンロードが行われることがあります。このダウンロードは Apple のプライバシーポリシーに従って行われ、利用者の音声は含まれません。
 
-文の区切りを整える処理には、Apple Intelligence（オンデバイスの言語モデル）を使用します。こちらも端末内で完結します。対応していない端末では、規則ベースの処理に自動的に切り替わります。
 
 ## 端末の機能へのアクセス
 
@@ -95,7 +94,6 @@ Sentence segmentation uses Apple's **on-device speech recognition**. Your audio 
 
 If the language model required for recognition is not yet installed, iOS may download it as a system function. That download follows Apple's privacy policy and does not include your audio.
 
-Sentence boundaries are refined using Apple Intelligence (an on-device language model), also entirely on the device. On devices without it, the app falls back to rule-based processing.
 
 ## Device access
 
