@@ -11,7 +11,7 @@ title: プライバシーポリシー
 
 Reprise（リプライズ）は、利用者の情報を一切収集しません。サーバーを持たず、音声の解析や学習記録はすべて端末内で処理します。
 
-通信するのは、利用者が「Podcast から追加」を使うときだけです。その通信は Apple の検索サービスと番組の配信元へ直接行われ、開発者が内容を受け取ることはありません。
+通信するのは、利用者が「Podcast から追加」を使うときと、Podcast から作った教材を開いて新しいエピソードを確かめるときだけです。その通信は Apple の検索サービスと番組の配信元へ直接行われ、開発者が内容を受け取ることはありません。
 
 ## 収集する情報
 
@@ -22,12 +22,13 @@ Reprise（リプライズ）は、利用者の情報を一切収集しません�
 次のものは、利用者の端末の中にだけ保存されます。アプリの外へ送信されることはありません。
 
 - 取り込んだ音声ファイル（Podcast からダウンロードしたエピソードを含む）
-- 登録した Podcast 番組の RSS フィードの URL と、取り込んだエピソードの識別子
 - 音声認識で得られた文字起こしと、文ごとの時刻
 - 学習記録（学習時間、再生した文の数、習得済みにした文）
 - 再生設定（速度、リピートの方法、ポーズの長さなど）
 
 これらはアプリを削除すると端末から消去されます。
+
+Podcast から作った教材については、番組の RSS フィードの URL と取り込んだエピソードの識別子も端末内に保存します。どの番組を登録しているかの一覧が外部へ送られることはありませんが、各番組の RSS フィードの URL は、その番組の配信元へエピソードの一覧を取りに行く要求に使われます（下記「Podcast 機能の通信」）。
 
 ## 音声の扱い
 
@@ -92,7 +93,7 @@ Last updated: 2026-11-05
 
 Reprise collects no information. It has no server; audio analysis and study records are processed entirely on the device.
 
-The app communicates over the network only when you use "Add from Podcast". That traffic goes directly to Apple's search service and to the podcast's publisher, and we never receive any of it.
+The app communicates over the network only when you use "Add from Podcast", or open study material created from a podcast to check for new episodes. That traffic goes directly to Apple's search service and to the podcast's publisher, and we never receive any of it.
 
 ## Information we collect
 
@@ -103,12 +104,13 @@ The app communicates over the network only when you use "Add from Podcast". That
 The following is stored only on your device and never leaves it:
 
 - Audio files you import (including podcast episodes you download)
-- RSS feed URLs of podcasts you add, and identifiers of the episodes you imported
 - Transcripts and per-sentence timings produced by speech recognition
 - Study records (listening time, sentences played, sentences marked as learned)
 - Playback settings
 
 All of this is removed when you delete the app.
+
+For study material created from a podcast, the app also stores the show's RSS feed URL and the identifiers of the episodes you imported. Your list of shows is never sent anywhere, but each show's RSS feed URL is used in the request that fetches its episode list from that show's publisher (see "Network use by the podcast feature").
 
 ## Handling of audio
 
