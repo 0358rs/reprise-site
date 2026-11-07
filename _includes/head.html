@@ -1,0 +1,31 @@
+{%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.ja -%}
+{%- if page.url == '/' or page.url == '/en/' -%}
+  {%- assign full_title = page.title -%}
+{%- else -%}
+  {%- assign full_title = page.title | append: ' — Reprise' -%}
+{%- endif -%}
+{%- assign description = page.description | default: t.tagline -%}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ full_title }}</title>
+  <meta name="description" content="{{ description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {%- if page.alt_url %}
+  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="{% if page.lang == 'en' %}ja{% else %}en{% endif %}" href="{{ page.alt_url | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+  {%- endif %}
+  <link rel="icon" href="{{ '/assets/icon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/icon.png' | relative_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Reprise">
+  <meta property="og:title" content="{{ full_title | escape }}">
+  <meta property="og:description" content="{{ description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/icon.png' | absolute_url }}">
+  <meta property="og:locale" content="{% if page.lang == 'en' %}en_US{% else %}ja_JP{% endif %}">
+  <meta name="twitter:card" content="summary">
+  {%- if site.twitter_username != '' %}
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
+  {%- endif %}
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">

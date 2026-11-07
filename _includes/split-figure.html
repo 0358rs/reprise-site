@@ -1,0 +1,17 @@
+<figure class="split" aria-label="{{ include.alt }}">
+  <div class="split-track">
+    <div class="split-meta"><span>{{ include.track }}</span><span>04:12</span></div>
+    {% include wave-long.html %}
+  </div>
+  <div class="split-arrow" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 4v15m0 0-6-6m6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>{{ include.arrow }}</span>
+  </div>
+  <ol class="split-rows">
+    <li class="g0"><span class="n">1</span>{% include wave-mini-0.html %}<span class="s">Excuse me, is this seat taken?</span></li>
+    <li class="g1"><span class="n">2</span>{% include wave-mini-1.html %}<span class="s">No, go ahead.</span></li>
+    <li class="g2 on"><span class="n">3</span>{% include wave-mini-2.html %}<span class="s">Thanks. Are you here for the conference too?</span><span class="loop">
+      <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M17 2l4 4-4 4M3 11V9a3 3 0 0 1 3-3h15M7 22l-4-4 4-4m14-1v2a3 3 0 0 1-3 3H3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>{{ include.loop }}</span></li>
+    <li class="g3"><span class="n">4</span>{% include wave-mini-3.html %}<span class="s">Yes, I'm giving a talk this afternoon.</span></li>
+  </ol>
+</figure>

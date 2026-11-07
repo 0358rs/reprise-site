@@ -1,0 +1,107 @@
+---
+layout: landing
+lang: en
+alt_url: /
+title: Reprise — Repeat any sentence with one tap
+description: Reprise splits your language-learning audio into sentences, right on your iPhone, so you can replay the one you missed with a single tap.
+---
+{%- assign t = site.data.i18n.en -%}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Audio player for language learners · iPhone</p>
+      <h1><span>Missed a sentence?</span> <span>Tap it to hear it again.</span></h1>
+      <p class="lead">Reprise takes one long recording and splits it into sentences, entirely on your device. Tap the sentence you want, and replay just that one — as many times as you like.</p>
+      <div class="cta">
+        {%- if site.app_store_url != '' %}
+        <a class="btn" href="{{ site.app_store_url }}">{{ t.download }}</a>
+        {%- endif %}
+        <span class="note">Free to download · iOS 26 or later · No account</span>
+      </div>
+    </div>
+    {% include split-figure.html alt="One recording splits into four sentences; the third sentence is playing on a loop" track="Unit 3 · Conversation" arrow="Split on your device" loop="Looping" %}
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>Spend your time practicing, not scrubbing.</h2>
+    <p class="section-lead">When a whole lesson is a single track, going back one sentence means hunting along the timeline with your finger. Reprise is built to remove that step.</p>
+    <div class="features">
+      <article>
+        <h3>Automatic sentence splitting</h3>
+        <p>On-device speech recognition transcribes the audio and splits it by sentence, phrase, or chunk (2–5 word groups). If a boundary is off, merge, re-split, or fine-tune it against the waveform.</p>
+      </article>
+      <article>
+        <h3>Playback made for practice</h3>
+        <p>0.5×–2.0× speed with pitch preserved, single-sentence loop, and stop-after-each-sentence. A “same length as the phrase” pause leaves just enough time to say it back. Hide the text to focus on listening.</p>
+      </article>
+      <article>
+        <h3>Everything stays on your device</h3>
+        <p>Your audio, transcripts, and study history are never sent to a server, and there's no account to create.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Bring the audio you already have.</h2>
+    <ul class="sources">
+      <li><strong>Files &amp; Music</strong><span>Course audio, videos, and DRM-free songs</span></li>
+      <li><strong>Podcasts</strong><span>Search by show name and import episodes; new episodes are flagged</span></li>
+      <li><strong>Recordings &amp; Voice Memos</strong><span>Record a teacher or class, or share straight into Reprise</span></li>
+      <li><strong>From text</strong><span>Paste text and have it read aloud by an on-device voice</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>Three steps</h2>
+    <ol class="steps">
+      <li><h3>Import</h3><p>Tap “+” and pick your audio. A short built-in tutorial lets you try it right away.</p></li>
+      <li><h3>Split</h3><p>Analysis runs on your device and takes a few seconds to a few minutes, depending on length.</p></li>
+      <li><h3>Tap a sentence</h3><p>Play just that one. Combine loop, pause, and speed to listen, shadow, and repeat.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Pricing</h2>
+    <div class="plans">
+      <article>
+        <h3>Free</h3>
+        <ul>
+          <li>Automatic splitting and every playback feature</li>
+          <li>Up to 5 study materials</li>
+          <li>Up to 3 “from text” materials per month</li>
+          <li>Study time history for the last 7 days</li>
+        </ul>
+      </article>
+      <article class="premium">
+        <h3>Reprise Premium</h3>
+        <p class="price">Monthly or yearly subscription</p>
+        <ul>
+          <li>Unlimited study materials and “from text” creation</li>
+          <li>Review mode for all your bookmarked sentences</li>
+          <li>Record yourself and compare with the original</li>
+          <li>Study history up to all time; auto-import new podcast episodes</li>
+        </ul>
+        <p class="note">Includes a 7-day free trial. Prices are shown in the app in your local currency. If your subscription ends, every material you've added stays playable.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="closing">
+  <div class="wrap">
+    <img src="{{ '/assets/icon.png' | relative_url }}" alt="" width="72" height="72">
+    <h2>Jump straight to the part you want to hear again.</h2>
+    {%- if site.app_store_url != '' %}
+    <a class="btn" href="{{ site.app_store_url }}">{{ t.download }}</a>
+    {%- endif %}
+    <p class="note"><a href="{{ t.privacy_url | relative_url }}">Privacy Policy</a> · <a href="{{ t.support_url | relative_url }}">FAQ &amp; Support</a></p>
+  </div>
+</section>

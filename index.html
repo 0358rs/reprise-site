@@ -1,0 +1,108 @@
+---
+layout: landing
+lang: ja
+alt_url: /en/
+title: Reprise（リプライズ）— 文ごとに区切れる語学プレーヤー
+description: 聞き取れなかった一文に、タップひとつで戻れる。取り込んだ音声を端末内で文ごとに自動分割する、iPhone の語学オーディオプレーヤー。
+---
+{%- assign t = site.data.i18n.ja -%}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">iPhone 向け 語学オーディオプレーヤー</p>
+      <h1><span>聞き取れなかった一文に、</span><span>タップひとつで戻れる。</span></h1>
+      <p class="lead">Reprise（リプライズ）は、1 本につながった音声教材を端末の中で文ごとに自動で区切ります。聞き直したい一文をタップすれば、その文だけを何度でも。</p>
+      <div class="cta">
+        {%- if site.app_store_url != '' %}
+        <a class="btn" href="{{ site.app_store_url }}">{{ t.download }}</a>
+        {%- endif %}
+        <span class="note">基本無料 · iOS 26 以降 · アカウント登録なし</span>
+      </div>
+    </div>
+    {% include split-figure.html alt="1 本の音声が 4 つの文に分かれ、3 つ目の文をくり返し再生している図" track="Unit 3 · Conversation" arrow="端末の中で文に分割" loop="ループ中" %}
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>シークバーを探る時間を、練習の時間に。</h2>
+    <p class="section-lead">1 セクションがまるごと 1 トラックの教材では、一文を聞き直すたびに指で位置を探すことになります。Reprise はその手間をなくすためのプレーヤーです。</p>
+    <div class="features">
+      <article>
+        <h3>文に自動で分かれる</h3>
+        <p>端末内の音声認識で文字起こしし、文・フレーズ・チャンク（2〜5 語のかたまり）の単位に分割。区切りがずれたら、長押しから結合・分け直し・波形を見ながらの微調整ができます。</p>
+      </article>
+      <article>
+        <h3>練習のための再生</h3>
+        <p>0.5〜2.0 倍速（音程はそのまま）、1 文ループ、文ごとに止まる再生。「フレーズと同じ長さ」のポーズで、聞いた長さだけ間を空けて言い返せます。本文を伏せて聞き取りに集中することも。</p>
+      </article>
+      <article>
+        <h3>端末の中で完結</h3>
+        <p>音声・文字起こし・学習記録はサーバーへ送りません。アカウント登録も不要です。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>手持ちの音声が、そのまま教材に。</h2>
+    <ul class="sources">
+      <li><strong>ファイル・ミュージック</strong><span>教材の音声ファイルや動画、DRM のない曲を取り込み</span></li>
+      <li><strong>Podcast</strong><span>番組名で検索してエピソードを取り込み。新しい回もお知らせ</span></li>
+      <li><strong>録音・ボイスメモ</strong><span>先生のお手本や授業をその場で録音、共有メニューからも</span></li>
+      <li><strong>文章から</strong><span>貼り付けた文章を端末内の声で読み上げて教材に</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>使い方は 3 ステップ</h2>
+    <ol class="steps">
+      <li><h3>取り込む</h3><p>「＋」から音声を選ぶ。初回は使い方の教材が入っているので、すぐに試せます。</p></li>
+      <li><h3>文に分割する</h3><p>端末の中で解析。長さに応じて数秒〜数分で、文ごとのリストになります。</p></li>
+      <li><h3>一文をタップ</h3><p>その文だけを再生。ループ・ポーズ・倍速を組み合わせて、聞く・まねる・言い返す。</p></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>料金</h2>
+    <div class="plans">
+      <article>
+        <h3>無料</h3>
+        <p class="price">0 円</p>
+        <ul>
+          <li>文の自動分割と、すべての再生機能</li>
+          <li>教材 5 冊まで</li>
+          <li>「文章から作る」は月 3 本まで</li>
+          <li>学習時間の記録は直近 7 日</li>
+        </ul>
+      </article>
+      <article class="premium">
+        <h3>Reprise Premium</h3>
+        <p class="price">月額 600 円 <span>/ 年額 6,000 円</span></p>
+        <ul>
+          <li>教材の数の上限なし、「文章から作る」も無制限</li>
+          <li>ブックマークした文をまとめて練習する復習モード</li>
+          <li>自分の声を録音してお手本と聴き比べ</li>
+          <li>学習時間を 1 年・全期間まで、Podcast の新しい回を自動で取り込み</li>
+        </ul>
+        <p class="note">7 日間の無料体験つき。体験中に解約すれば請求はありません。購読が切れても、教材はすべて再生できます。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="closing">
+  <div class="wrap">
+    <img src="{{ '/assets/icon.png' | relative_url }}" alt="" width="72" height="72">
+    <h2>聞き直したいところへ、すぐに。</h2>
+    {%- if site.app_store_url != '' %}
+    <a class="btn" href="{{ site.app_store_url }}">{{ t.download }}</a>
+    {%- endif %}
+    <p class="note"><a href="{{ '/privacy' | relative_url }}">プライバシーポリシー</a> · <a href="{{ '/support' | relative_url }}">よくある質問・お問い合わせ</a></p>
+  </div>
+</section>

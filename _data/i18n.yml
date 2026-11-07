@@ -1,0 +1,20 @@
+ja:
+  home: ホーム
+  privacy: プライバシー
+  support: サポート
+  switch_label: English
+  tagline: 文ごとに区切れる語学プレーヤー
+  download: App Store で入手
+  home_url: /
+  privacy_url: /privacy
+  support_url: /support
+en:
+  home: Home
+  privacy: Privacy
+  support: Support
+  switch_label: 日本語
+  tagline: The language-learning player that repeats one sentence at a time
+  download: Get it on the App Store
+  home_url: /en/
+  privacy_url: /privacy#reprise-privacy-policy
+  support_url: /support#reprise-support

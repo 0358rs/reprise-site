@@ -1,0 +1,16 @@
+{%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.ja -%}
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="{{ t.home_url | relative_url }}">
+        <img src="{{ '/assets/icon.png' | relative_url }}" alt="" width="32" height="32">
+        <span>Reprise{% if page.lang != 'en' %}<small>リプライズ</small>{% endif %}</span>
+      </a>
+      <nav aria-label="{{ t.home }}">
+        <a href="{{ t.privacy_url | relative_url }}" {% if page.url contains 'privacy' %}aria-current="page"{% endif %}>{{ t.privacy }}</a>
+        <a href="{{ t.support_url | relative_url }}" {% if page.url contains 'support' %}aria-current="page"{% endif %}>{{ t.support }}</a>
+        {%- if page.alt_url %}
+        <a class="lang" href="{{ page.alt_url | relative_url }}" lang="{% if page.lang == 'en' %}ja{% else %}en{% endif %}">{{ t.switch_label }}</a>
+        {%- endif %}
+      </nav>
+    </div>
+  </header>

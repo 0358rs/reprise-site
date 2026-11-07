@@ -1,5 +1,19 @@
 title: Reprise
 lang: ja
+
+# 独自ドメインへ切り替えるときは README の「独自ドメインへの切り替え」を参照。
+# url を新しいドメインにし、baseurl を "" にする。
+url: https://0358rs.github.io
 baseurl: /reprise-site
+
+# App Store の商品ページ（例: https://apps.apple.com/jp/app/id0000000000）。
+# 空のあいだは、紹介ページのダウンロードボタンを出さない。
+app_store_url: ""
+
+# X（Twitter）のアカウント（@ を除く）。空のあいだはリンクとカードの帰属を出さない。
+twitter_username: ""
+
+support_email: reprise.app.support@gmail.com
+
 exclude:
   - README.md

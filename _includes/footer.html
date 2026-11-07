@@ -1,0 +1,14 @@
+{%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.ja -%}
+  <footer class="site">
+    <div class="wrap">
+      <p>Reprise — {{ t.tagline }}</p>
+      <p>
+        <a href="{{ t.privacy_url | relative_url }}">{{ t.privacy }}</a> ·
+        <a href="{{ t.support_url | relative_url }}">{{ t.support }}</a> ·
+        {%- if site.twitter_username != '' %}
+        <a href="https://x.com/{{ site.twitter_username }}">X @{{ site.twitter_username }}</a> ·
+        {%- endif %}
+        <a href="mailto:{{ site.support_email }}">{{ site.support_email }}</a>
+      </p>
+    </div>
+  </footer>
